@@ -1,0 +1,130 @@
+body{
+    /*background-color: rgb(100, 100, 100);*/
+    margin: 0px;
+    background: linear-gradient(to right,#ff0564 ,rgb(0, 152, 255));
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.navbar{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    
+}
+
+.navbar_logo{
+    font-size: 20px;
+    padding: 5px;
+    color: aqua;
+    float: left;
+    
+}
+
+.navbar_menu{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.navbar_item{
+    width: 15%;
+    text-align: center;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    padding: 25px;
+    
+}
+
+.navbar_item:hover{
+    transition: all 0.5s ease;
+    background-color: white;
+    color: black;
+}
+
+
+
+.navbar_sign_b{
+    margin-left: 10px;
+    color: black;
+    background-color: rgb(0, 238, 255);
+    font-size: 20px;
+    text-decoration: none;
+    padding: 25px;
+
+}
+
+.navbar_sign_b:hover{
+    transition: all 0.5s ease;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+.navbar_sign{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    float: right;
+    
+}
+.inner_body{
+    margin-top: 10px;
+    background-color: rgb(0, 0, 0);
+    display: grid;
+    align-content: center;
+    margin-left: 15%;
+    margin-right: 15%;
+
+}
+
+.banner_img{
+    width: 80%;
+}
+.img_place{  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.title_text{
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+
+.text_place{
+    display: flex;
+    justify-content: center;
+}
+.description{
+
+    color: white;
+    font-size: 100%;
+    width: 80%;
+
+}
+
+
+.download_btn:hover{
+    transition: all 0.5s ease;
+    background-color: #ffffff;
+    color: black;
+}
+
+.download_btn{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-size: 100%;
+    padding: 20px;
+    margin: 50px;
+    background-color: #ff0564;
+}
+.screenshot_img{
+    width: 70%;
+    margin: 20px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
